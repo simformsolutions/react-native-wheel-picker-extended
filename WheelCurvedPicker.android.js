@@ -30,7 +30,7 @@ class WheelCurvedPicker extends React.Component {
     /**
      * Picker PropTypes
      */
-    propTypes: {
+    static propTypes = {
         ...View.propTypes,
         data: PropTypes.array,
         textColor: ColorPropType,
@@ -104,7 +104,7 @@ class WheelCurvedPicker extends React.Component {
  * WheelCurvedPicker.Item
  */
 class Item extends React.Component {
-    propTypes: {
+    static propTypes = {
         value: PropTypes.any, // string or integer basically
         label: PropTypes.string,
     };
